@@ -1,6 +1,6 @@
-# GameVoucher
+# Ecommerce
 
-GameVoucher is a platform designed for easy and reliable purchase of game vouchers, in-game credits, and managing transactions. The platform supports a variety of games and ensures secure payment integration for a smooth experience.
+Ecommerce is a platform designed for easy and reliable purchase of game vouchers, in-game credits, and managing transactions. The platform supports a variety of games and ensures secure payment integration for a smooth experience.
 
 ## Features
 
@@ -17,7 +17,7 @@ GameVoucher is a platform designed for easy and reliable purchase of game vouche
 
 ### Backend
 - **Laravel** - Backend built with Laravel to handle logic and manage databases efficiently.
-- **MySQL** - Relational database for storing user data, product information, and orders.
+- **Laragon** - Relational database for storing user data, product information, and orders.
 
 ### Frontend
 - **React** - A powerful JavaScript library for creating dynamic user interfaces.
@@ -36,7 +36,6 @@ Make sure you have the following installed:
 - [Composer](https://getcomposer.org/)
 - [Node.js](https://nodejs.org/)
 - [Yarn](https://yarnpkg.com/)
-- [MySQL](https://www.mysql.com/)
 
 ## Installation
 
@@ -84,6 +83,7 @@ Make sure you have the following installed:
 ```plaintext
 GAMEVOUCHER/
 │
+├── documentation/              # Detail documentation (API,architecture,backlog,etc)
 ├── backend/                    # Backend Laravel project
 ├── frontend/                   # Frontend React project
 │   ├── assets/                 # Static assets like images, fonts, etc.
